@@ -31,10 +31,10 @@ export const siteConfig = {
 			title: 'Certificates',
 			href: '/certificates',
 		},
-		{
-			title: 'Blog',
-			href: '/blog',
-		},
+		// {
+		// 	title: 'Blog',
+		// 	href: '/blog',
+		// },
 		{
 			title: 'Contact',
 			href: '/contact',
@@ -52,44 +52,44 @@ export const siteConfig = {
 	},
 };
 
-export type Experience = {
-	title: string;
-	company: string;
-	location: string;
-	startDate: string;
-	endDate: string;
-	description: string[];
-	technologies: string[];
-};
+// export type Experience = {
+// 	title: string;
+// 	company: string;
+// 	location: string;
+// 	startDate: string;
+// 	endDate: string;
+// 	description: string[];
+// 	technologies: string[];
+// };
 
-export const experiences: Experience[] = [
-	{
-		title: 'Engineering Intern',
-		company: 'Tech Company',
-		location: 'City, Country',
-		startDate: 'May 2023',
-		endDate: 'Aug 2023',
-		description: [
-			'Worked on developing and testing software components for embedded systems',
-			'Collaborated with senior engineers on project planning and execution',
-			'Implemented test procedures for quality assurance',
-		],
-		technologies: ['C++', 'Python', 'MATLAB', 'Git'],
-	},
-	{
-		title: 'Research Assistant',
-		company: 'University Lab',
-		location: 'City, Country',
-		startDate: 'Jan 2023',
-		endDate: 'Apr 2023',
-		description: [
-			'Assisted in research focusing on advanced materials for mechanical applications',
-			'Conducted literature reviews and compiled research findings',
-			'Performed data analysis and visualization of experimental results',
-		],
-		technologies: ['MATLAB', 'CAD', 'Data Analysis', 'Python'],
-	},
-];
+// export const experiences: Experience[] = [
+// 	{
+// 		title: 'Engineering Intern',
+// 		company: 'Tech Company',
+// 		location: 'City, Country',
+// 		startDate: 'May 2023',
+// 		endDate: 'Aug 2023',
+// 		description: [
+// 			'Worked on developing and testing software components for embedded systems',
+// 			'Collaborated with senior engineers on project planning and execution',
+// 			'Implemented test procedures for quality assurance',
+// 		],
+// 		technologies: ['C++', 'Python', 'MATLAB', 'Git'],
+// 	},
+// 	{
+// 		title: 'Research Assistant',
+// 		company: 'University Lab',
+// 		location: 'City, Country',
+// 		startDate: 'Jan 2023',
+// 		endDate: 'Apr 2023',
+// 		description: [
+// 			'Assisted in research focusing on advanced materials for mechanical applications',
+// 			'Conducted literature reviews and compiled research findings',
+// 			'Performed data analysis and visualization of experimental results',
+// 		],
+// 		technologies: ['MATLAB', 'CAD', 'Data Analysis', 'Python'],
+// 	},
+// ];
 
 export type Project = {
 	title: string;
@@ -243,38 +243,38 @@ export const skills: Skill[] = [
 	{ name: 'French', level: 4, category: 'language' },
 ];
 
-export type BlogPost = {
-	title: string;
-	excerpt: string;
-	date: string;
-	author: string;
-	image: string;
-	slug: string;
-};
+// export type BlogPost = {
+// 	title: string;
+// 	excerpt: string;
+// 	date: string;
+// 	author: string;
+// 	image: string;
+// 	slug: string;
+// };
 
-export const blogPosts: BlogPost[] = [
-	{
-		title: 'Advances in Renewable Energy Technologies',
-		excerpt: 'Exploring the latest innovations in renewable energy and their impact on sustainable development.',
-		date: 'Mar 15, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg',
-		slug: 'advances-in-renewable-energy',
-	},
-	{
-		title: 'The Future of Robotics in Manufacturing',
-		excerpt: 'How robotics and automation are revolutionizing the manufacturing industry and creating new opportunities.',
-		date: 'Feb 22, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
-		slug: 'future-of-robotics-manufacturing',
-	},
-	{
-		title: 'Sustainable Building Materials in Modern Construction',
-		excerpt: 'An analysis of eco-friendly building materials and their applications in contemporary architecture.',
-		date: 'Jan 10, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg',
-		slug: 'sustainable-building-materials',
-	},
-];
+// export const blogPosts: BlogPost[] = [
+// 	{
+// 		title: 'Advances in Renewable Energy Technologies',
+// 		excerpt: 'Exploring the latest innovations in renewable energy and their impact on sustainable development.',
+// 		date: 'Mar 15, 2024',
+// 		author: 'Your Name',
+// 		image: 'https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg',
+// 		slug: 'advances-in-renewable-energy',
+// 	},
+// 	{
+// 		title: 'The Future of Robotics in Manufacturing',
+// 		excerpt: 'How robotics and automation are revolutionizing the manufacturing industry and creating new opportunities.',
+// 		date: 'Feb 22, 2024',
+// 		author: 'Your Name',
+// 		image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
+// 		slug: 'future-of-robotics-manufacturing',
+// 	},
+// 	{
+// 		title: 'Sustainable Building Materials in Modern Construction',
+// 		excerpt: 'An analysis of eco-friendly building materials and their applications in contemporary architecture.',
+// 		date: 'Jan 10, 2024',
+// 		author: 'Your Name',
+// 		image: 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg',
+// 		slug: 'sustainable-building-materials',
+// 	},
+// ];
