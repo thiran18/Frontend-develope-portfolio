@@ -129,7 +129,7 @@ engineer_portfolio/
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/niladri-1/Engineering_Student_Portfolio.git
+git clone
 
 # 2️⃣ Navigate to project directory
 cd Engineering_Student_Portfolio
