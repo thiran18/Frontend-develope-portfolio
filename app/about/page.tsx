@@ -21,7 +21,7 @@ export default function AboutPage() {
 					<motion.div variants={fadeIn('right', 0.3)} className="space-y-6">
 						<h1 className="text-4xl font-bold">About Me</h1>
 						<p className="text-lg text-muted-foreground">
-							I am a passionate engineering student with a focus on innovation and problem-solving.
+							I'm <strong>Thiran V</strong>, a passionate <strong>Biomedical Engineer</strong>  student with a focus on innovation and problem-solving.
 							My academic journey has equipped me with strong technical skills and a deep understanding
 							of engineering principles.
 						</p>
@@ -42,8 +42,8 @@ export default function AboutPage() {
 
 					<motion.div variants={fadeIn('left', 0.3)} className="relative h-[500px]">
 						<Image
-							src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
-							alt="Professional photo"
+							src="/thiranimage.png"
+							alt="Thiran V - Biomedical Engineer portrait"
 							fill
 							className="object-cover rounded-lg"
 							sizes="(max-width: 768px) 100vw, 50vw"
@@ -62,20 +62,9 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Education</h3>
 								<p className="text-muted-foreground">
-									Currently pursuing a Bachelor's degree in Engineering with a focus on
-									practical applications and innovative solutions.
-								</p>
-							</CardContent>
-						</Card>
-					</motion.div>
-
-					<motion.div variants={fadeIn('up', 0.2)}>
-						<Card className="h-full card-gradient">
-							<CardContent className="p-6">
-								<h3 className="text-xl font-semibold mb-4">Experience</h3>
-								<p className="text-muted-foreground">
-									Gained valuable experience through internships and projects, working
-									with cutting-edge technologies and methodologies.
+									<strong>B.E Biomedical Engineering</strong><br />
+									Bannari Amman Institute of Technology (2022–2026)<br />
+									CGPA: 7.81
 								</p>
 							</CardContent>
 						</Card>
@@ -86,8 +75,36 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Skills</h3>
 								<p className="text-muted-foreground">
-									Proficient in various engineering tools and technologies, with a strong
-									foundation in problem-solving and analytical thinking.
+									C, C++, Java, SQL, Arduino, ESP32, MATLAB, MySQL Workbench, Git, Figma
+								</p>
+							</CardContent>
+						</Card>
+					</motion.div>
+
+					<motion.div variants={fadeIn('up', 0.4)}>
+						<Card className="h-full card-gradient">
+							<CardContent className="p-6">
+								<h3 className="text-xl font-semibold mb-4">Projects</h3>
+								<p className="text-muted-foreground">
+									<ul className="list-disc pl-4">
+										<li>Fetal Monitoring System (ESP32 + MPU6050)</li>
+										<li>Paralysis Patient Monitoring</li>
+										<li>Smart Home Automation (ESP32-CAM)</li>
+									</ul>
+								</p>
+							</CardContent>
+						</Card>
+					</motion.div>
+
+					<motion.div variants={fadeIn('up', 0.5)}>
+						<Card className="h-full card-gradient">
+							<CardContent className="p-6">
+								<h3 className="text-xl font-semibold mb-4">Achievements</h3>
+								<p className="text-muted-foreground">
+									Finalist — BIT Hack 2023 (Home Automation System)<br />
+									Runner-up — Paralysis Patient Monitoring Presentation<br />
+									HackerRank Java (Intermediate)<br />
+									MATLAB Onramp Certification
 								</p>
 							</CardContent>
 						</Card>

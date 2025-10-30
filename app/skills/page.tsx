@@ -8,11 +8,36 @@ import { skills } from '@/lib/constants';
 import { fadeIn, staggerContainer } from '@/lib/motion';
 
 export default function SkillsPage() {
-	const technicalSkills = skills.filter(skill => skill.category === 'technical');
-	const softwareSkills = skills.filter(skill => skill.category === 'software');
-	const softSkills = skills.filter(skill => skill.category === 'soft');
-	const languageSkills = skills.filter(skill => skill.category === 'language');
+    	const technicalSkills = [
+		{ name: 'Embedded Systems (Arduino, ESP32)', level: 9 },
+		{ name: 'IoT Device Integration', level: 8 },
+		{ name: 'Biomedical Instrumentation', level: 8 },
+		{ name: 'Signal Processing & Sensors', level: 7 },
+		{ name: 'Microcontrollers & Circuits', level: 8 },
+		{ name: 'PCB Design Basics', level: 6 },
+	];
+	const softwareSkills = [
+		{ name: 'C / C++', level: 8 },
+		{ name: 'Java', level: 7 },
+		{ name: 'Python (Basic)', level: 6 },
+		{ name: 'SQL / MySQL Workbench', level: 8 },
+		{ name: 'MATLAB', level: 7 },
+		{ name: 'Git / GitHub', level: 8 },
+	];
 
+	const softSkills = [
+		{ name: 'Problem Solving', level: 9 },
+		{ name: 'Team Collaboration', level: 9 },
+		{ name: 'Analytical Thinking', level: 8 },
+		{ name: 'Leadership', level: 8 },
+		{ name: 'Time Management', level: 8 },
+		{ name: 'Adaptability', level: 9 },
+	];
+
+	const languageSkills = [
+		{ name: 'English', level: 9 },
+		{ name: 'Tamil', level: 10 },
+	];
 	const SkillCategory = ({
 		title,
 		skills,

@@ -16,9 +16,8 @@ export function AboutPreview() {
 			<div className="container px-4">
 				<SectionHeader
 					title="About Me"
-					description="A passionate engineer dedicated to solving complex problems through innovative solutions."
+					description="A Biomedical and IoT Engineer passionate about creating innovative healthcare technologies."
 				/>
-
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
 					<motion.div
 						variants={fadeIn('right', 0.3)}
@@ -28,8 +27,8 @@ export function AboutPreview() {
 						className="relative h-[400px] rounded-lg overflow-hidden"
 					>
 						<Image
-							src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
-							alt="Engineer portrait"
+							src="/thiranimage.png"
+							alt="Thiran V portrait"
 							fill
 							className="object-cover"
 							sizes="(max-width: 768px) 100vw, 50vw"
@@ -54,29 +53,39 @@ export function AboutPreview() {
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Education</h4>
-									<p className="text-sm text-muted-foreground">B.S. Mechanical Engineering</p>
+									<p className="text-sm text-muted-foreground">
+										B.E Biomedical Engineering — Bannari Amman Institute of Technology (CGPA 7.81)
+									</p>
 								</CardContent>
 							</Card>
+
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Experience</h4>
-									<p className="text-sm text-muted-foreground">3+ Years</p>
+									<h4 className="font-semibold">Domain Expertise</h4>
+									<p className="text-sm text-muted-foreground">
+										Embedded Systems • IoT • Signal Processing • Healthcare Devices
+									</p>
 								</CardContent>
 							</Card>
+
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Projects</h4>
-									<p className="text-sm text-muted-foreground">10+ Completed</p>
+									<p className="text-sm text-muted-foreground">
+										Fetal Monitoring • Paralysis Monitoring • Home Automation
+									</p>
 								</CardContent>
 							</Card>
+
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Awards</h4>
-									<p className="text-sm text-muted-foreground">5 Recognitions</p>
+									<h4 className="font-semibold">Achievements</h4>
+									<p className="text-sm text-muted-foreground">
+										BIT Hack 2023 Finalist • Hackathon Runner-Up • HackerRank Java (Intermediate)
+									</p>
 								</CardContent>
 							</Card>
 						</div>
-
 						<Button asChild>
 							<Link href="/about">
 								Learn More <ArrowRight className="ml-2 h-4 w-4" />

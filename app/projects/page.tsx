@@ -12,6 +12,35 @@ import { projects } from '@/lib/constants';
 import { staggerContainer, fadeInScale } from '@/lib/motion';
 
 export default function ProjectsPage() {
+		const projects = [
+		{
+			title: 'Fetal Monitoring System (EDII Hackathon)',
+			description:
+				'A non-invasive, low-cost fetal movement monitoring system using ESP32 and MPU6050 to help pregnant mothers track fetal activity at home, reducing frequent clinical visits.',
+			tags: ['IoT', 'ESP32', 'Arduino IDE', 'Healthcare', 'Sensor Integration'],
+			image: '/projects/fetal_monitoring.jpg', // Add image in public/projects/
+			link: '', // Optional demo link
+			repo: 'https://github.com/thiran18/Fetal-Monitoring-System', // Replace with actual repo if available
+		},
+		{
+			title: 'Paralysis Patients Healthcare Monitoring',
+			description:
+				'An IoT-based healthcare system for paralysis patients using accelerometer and gyroscope-based motion recognition with wireless communication for caregiver alerts.',
+			tags: ['IoT', 'Arduino', 'ESP32', 'Real-Time Monitoring', 'Healthcare'],
+			image: '/projects/paralysis_monitoring.jpg',
+			link: '',
+			repo: 'https://github.com/thiran18/Paralysis-Healthcare-Monitoring', // optional
+		},
+		{
+			title: 'Home Automation System',
+			description:
+				'An IoT-based home automation system using ESP32-CAM, Firebase, and MIT App Inventor to enable remote appliance control, video monitoring, and keypad-based access for enhanced security.',
+			tags: ['IoT', 'ESP32-CAM', 'Firebase', 'MIT App Inventor', 'Automation'],
+			image: '/projects/home_automation.jpg',
+			link: '',
+			repo: 'https://github.com/thiran18/Home-Automation-System', // optional
+		},
+	];
 	return (
 		<div className="py-16 md:py-24">
 			<div className="container">
