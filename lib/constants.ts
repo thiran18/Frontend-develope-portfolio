@@ -19,10 +19,10 @@ export const siteConfig = {
 			title: 'Skills',
 			href: '/skills',
 		},
-		{
-			title: 'Experience',
-			href: '/experience',
-		},
+		// {
+		// 	title: 'Experience',
+		// 	href: '/experience',
+		// },
 		{
 			title: 'Projects',
 			href: '/projects',
